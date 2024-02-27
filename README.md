@@ -1,1 +1,1 @@
-# Timezone App <under construction>
+# Timezone App (under construction)

@@ -4,7 +4,7 @@ export const brTimezone = async () => {
   const sp = "Sao_Paulo";
   try {
     const res = await fetch(
-      `http://worldtimeapi.org/api/timezone/America/${sp}`
+      `https://worldtimeapi.org/api/timezone/America/${sp}`
     );
     const data = await res.json();
     return new TimezoneClass(data);
@@ -17,7 +17,7 @@ export const pstTimezone = async () => {
   const la = "Los_Angeles";
   try {
     const res = await fetch(
-      `http://worldtimeapi.org/api/timezone/America/${la}`
+      `https://worldtimeapi.org/api/timezone/America/${la}`
     );
     const data = await res.json();
     return new TimezoneClass(data);

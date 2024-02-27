@@ -2,25 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.app-container {
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-    gap: 50px;
+body {
+    background-color: #f0f0f0;
 }
-
-.timezone {
-    border: 1px solid black;
-    margin: 30px;
-    padding: 10px;
-    max-height: 100px;
-    width: 190px;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-

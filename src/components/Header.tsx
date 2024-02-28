@@ -11,7 +11,7 @@ export const Header = () => {
         Timezone Checker
       </h1>
       <p className="text-sm text-white text-center w-full">
-        São Paulo to Los Angeles
+        São Paulo to the World
       </p>
     </div>
   );

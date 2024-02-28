@@ -13,15 +13,25 @@ export const brTimezone = async () => {
   }
 };
 
-export const pstTimezone = async () => {
-  const la = "Los_Angeles";
+export const timezones = async () => {
+  try {
+    const res = await fetch("https://worldtimeapi.org/api/timezone");
+    const data = await res.json();
+    return data;
+  } catch (err) {
+    console.log(`Error: ${err}`);
+  }
+};
+
+export const fetchTimezone = async (timezone: string) => {
   try {
     const res = await fetch(
-      `https://worldtimeapi.org/api/timezone/America/${la}`
+      `https://worldtimeapi.org/api/timezone/${timezone}`
     );
     const data = await res.json();
     return new TimezoneClass(data);
   } catch (err) {
     console.log(`Error: ${err}`);
+    throw err;
   }
 };

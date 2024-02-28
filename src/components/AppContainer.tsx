@@ -1,7 +1,7 @@
 "use client";
 import { BrTimezone } from "./BrTimezone";
 import { Header } from "./Header";
-import { PstTimezone } from "./PstTimezone";
+import { OtherTimezones } from "./OtherTimezones";
 
 export const AppContainer = () => {
   return (
@@ -9,7 +9,7 @@ export const AppContainer = () => {
       <Header />
       <div className="sm:flex sm:gap-20 items-center text-center">
         <BrTimezone />
-        <PstTimezone />
+        <OtherTimezones />
       </div>
     </div>
   );

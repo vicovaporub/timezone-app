@@ -2,9 +2,9 @@
 
 ## Description
 
-Built with Nextjs, the project is a simple page that fetches data from a timezone API and displays the date and time from São Paulo and Los Angeles.
+Built with Nextjs, the project is a simple page that fetches data from a timezone API and displays the date and time from São Paulo and Los Angeles on load. The later can be changed to see de difference for another timezone.
 
-You can access the project by clicking [here](https://vercel.com/victors-projects-c8db029f/timezone-app)
+You can access the project by clicking [here](https://timezone-app-three.vercel.app)
 
 ## Table of Contents
 
@@ -36,4 +36,5 @@ You can access the project by clicking [here](https://vercel.com/victors-project
 
 ## Usage
 
-- Check the time difference between São Paulo's time and Los Angeles'
+- Check the time difference between São Paulo's time and Los Angeles'.
+- Select another timezone to see date and time in other locations.
